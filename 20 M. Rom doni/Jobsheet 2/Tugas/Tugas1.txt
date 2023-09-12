@@ -1,0 +1,22 @@
+Dalam kasus analisis data kanker payudara Wisconsin, saya akan memberikan panduan umum mengenai kolom mana yang mungkin perlu digunakan dan kolom mana yang mungkin tidak perlu digunakan:
+
+**Kolom yang Mungkin Perlu Digunakan:**
+
+1. `id`: Biasanya tidak digunakan dalam analisis karena merupakan identifikasi unik untuk setiap catatan data dan tidak memberikan informasi diagnostik.
+
+2. `diagnosis`: Ini adalah kolom target yang ingin diprediksi. Ini penting untuk analisis, karena ini adalah label yang akan digunakan untuk membedakan jenis kanker menjadi Malignant (M) atau Benign (B).
+
+3. `radius_mean`: Ini adalah salah satu atribut klinis yang dapat digunakan dalam analisis, menggambarkan rata-rata radius sel-sel kanker.
+
+4. `texture_mean`, `perimeter_mean`, `area_mean`: Atribut klinis ini juga dapat digunakan dalam analisis untuk mendapatkan wawasan tentang tekstur, perimeter, dan area sel-sel kanker.
+
+5. `compactness_mean`, `concavity_mean`, `concave points_mean`: Atribut-atribut ini menggambarkan karakteristik morfologi sel-sel kanker dan dapat digunakan dalam analisis.
+
+6. `symmetry_mean`, `fractal_dimension_mean`: Atribut-atribut ini juga bisa menjadi relevan tergantung pada analisis yang ingin dilakukan.
+
+**Kolom yang Mungkin Tidak Perlu Digunakan:**
+
+1. `radius_se`: Ini adalah atribut yang menggambarkan standar error radius dan mungkin tidak selalu relevan tergantung pada fokus analisis.
+
+2. `texture_worst`, `perimeter_worst`, `area_worst`, `smoothness_worst`, `compactness_worst`, `concavity_worst`, `concave points_worst`, `symmetry_worst`, `fractal_dimension_worst`: Beberapa dari atribut-atribut ini mungkin menjadi redundan jika sudah menggunakan atribut rata-rata ("_mean") yang menggambarkan karakteristik serupa. Namun, dalam beberapa analisis, mereka masih dapat berguna.
+
