@@ -1,0 +1,38 @@
+Soal 1
+Pisahkan antara variabel yang dapat digunakan dan variabel yang tidak dapat digunakan
+
+- Variabel yang dapat digunakan
+1. diagnosis
+2. radius_mean
+3. texture_mean
+4. perimeter_mean
+5. area_mean
+6. smoothness_mean
+7. compactness_mean
+8. concavity_mean
+9. concave_points_mean
+10. symmetry_mean
+11. fractal_dimension_mean
+
+- Variabel yang tidak dapat digunakan
+1. id
+2. radius_se
+3. texture_se
+4. perimeter_se
+5. area_se
+6. smoothness_se
+7. compactness_se
+8. concavity_se
+9. concave_points_se
+10. symmetry_se
+11. fractal_dimension_se
+12. radius_worst
+13. texture_worst
+14. perimeter_worst
+15. area_worst
+16. smoothness_worst
+17. compactness_worst
+18. concavity_worst
+19. concave_points_worst
+20. symmetry_worst
+21. fractal_dimension_worst
