@@ -1,7 +1,7 @@
 # LANGKAH 1 - Load Image
 from PIL import Image
 
-img = Image.open('Jobsheet 2/dataset/Lenna_(test_image).png')
+img = Image.open('Job Sheet 2/dataset/Lenna_(test_image).png')
 img.show() # menampilkan gambar
 
 '''

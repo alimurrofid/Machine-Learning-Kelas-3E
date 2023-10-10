@@ -2,7 +2,7 @@
 # LANGKAH 1 - Load Data
 import pandas as pd
 
-df = pd.read_csv('Jobsheet 2/dataset/Titanic-Dataset-selected.csv')
+df = pd.read_csv('Job Sheet 2/dataset/Titanic-Dataset-selected.csv')
 print(df.head())
 
 
