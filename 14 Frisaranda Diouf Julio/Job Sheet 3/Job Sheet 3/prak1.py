@@ -8,7 +8,7 @@ import pandas as pd
 '''
 
 # read the data from file CSV using pandas
-data = pd.read_csv('Jobsheet 3/dataset/dataset.csv')
+data = pd.read_csv('Job Sheet 3/dataset/dataset.csv')
 
 # display the first 5 rows of the data
 data.head()

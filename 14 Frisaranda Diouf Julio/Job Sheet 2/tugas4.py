@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Split data training dan dan testing
-dpath = 'Jobsheet 2/dataset/wbc.csv'
+dpath = 'Job Sheet 2/dataset/wbc.csv'
 df = pd.read_csv(dpath)
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()

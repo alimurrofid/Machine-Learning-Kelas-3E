@@ -23,7 +23,7 @@ from sklearn import linear_model
 import statsmodels.api as sm
 
 # import dataset
-dataset = pd.read_csv('Jobsheet 3/dataset/insurance.csv')
+dataset = pd.read_csv('Job Sheet 3/dataset/insurance.csv')
 
 # create object from LabelEncoder
 le = LabelEncoder()

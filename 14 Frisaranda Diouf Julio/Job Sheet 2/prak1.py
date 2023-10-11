@@ -1,7 +1,7 @@
 # LANGKAH 1 - Load Data
 import pandas as pd
 
-data = 'Jobsheet 2/dataset/Titanic-Dataset.csv' # path dataset
+data = 'Job Sheet 2/dataset/Titanic-Dataset.csv' # path dataset
 df = pd.read_csv(data) # load dataset
 
 df.head()

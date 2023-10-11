@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-data = pd.read_csv('Jobsheet 2/dataset/wbc.csv')
+data = pd.read_csv('Job Sheet 2/dataset/wbc.csv')
 
 # Menggunakan LabelEncoder untuk encoding kolom "diagnosis"
 from sklearn.preprocessing import LabelEncoder

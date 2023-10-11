@@ -4,7 +4,7 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-dpath = 'Jobsheet 2/dataset/wbc.csv'
+dpath = 'Job Sheet 2/dataset/wbc.csv'
 df = pd.read_csv(dpath)
 selected_columns = ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'diagnosis']
 df = df[selected_columns]

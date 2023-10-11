@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 
 # LANGKAH 1 - Load Data
-dpath = 'Jobsheet 2/dataset/Titanic-Dataset-fixed.csv'
+dpath = 'Job Sheet 2/dataset/Titanic-Dataset-fixed.csv'
 df = pd.read_csv(dpath)
 print(df.head())
 

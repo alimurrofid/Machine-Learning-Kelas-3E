@@ -1,0 +1,6 @@
+Kesimpulannya adalah Ensemble voting adalah teknik yang menggabungkan prediksi dari
+beberapa algoritma, seperti Logistic Regression, SVM kernel polynomial, dan Decision Tree,
+untuk menciptakan prediksi akhir yang lebih kuat. Logistic Regression cocok untuk data linier,
+SVM kernel polynomial untuk data non-linier yang kompleks, dan Decision Tree untuk
+pemahaman pola non-linier. Dengan menggabungkan ketiganya dalam ensemble voting, kita
+dapat mengatasi berbagai jenis masalah dan meningkatkan akurasi prediksi.
