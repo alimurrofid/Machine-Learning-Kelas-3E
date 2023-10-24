@@ -10,7 +10,7 @@ import pandas as pd
 '''
 
 # import dataset
-dataset = pd.read_csv('Job Sheet 3/dataset/Posisi_gaji.csv')
+dataset = pd.read_csv('dataset/Posisi_gaji.csv')
 X = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
 
